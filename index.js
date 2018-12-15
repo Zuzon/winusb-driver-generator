@@ -23,7 +23,7 @@
 module.exports = require('bindings')({
   bindings: 'Generator',
   /* eslint-disable camelcase */
-  module_root: __dirname
+  module_root: __dirname + '/node_modules/winusb-driver-generator'
   /* eslint-enable camelcase */
 });
 
